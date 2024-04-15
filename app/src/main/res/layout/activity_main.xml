@@ -2,11 +2,15 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <!--实在不知道哪里没配置正确，导致这个button与标题栏重叠了，暂时先用marginTop将button下移-->
     <Button
         android:id="@+id/startNormalActivity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
         android:text="Start NormalActivity" />
+
     <Button
         android:id="@+id/startDialogActivity"
         android:layout_width="match_parent"
